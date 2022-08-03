@@ -9,6 +9,8 @@
 
 body {
     margin: 0;
+}
+main {
     font-family: 'Roboto';
 }
 
@@ -18,7 +20,8 @@ body {
 
 .header-hero {
     background-color: var(--bg);
-
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 header {
@@ -88,7 +91,6 @@ h1 {
     font-size: var(--secondary-size);
     margin: 0px;
     margin-bottom: 20px;
-    font-weight: 100;
 }
 
 .hero-left-side button {
@@ -116,6 +118,7 @@ h1 {
 .icons {
     text-align:center;
     padding-top: 50px;
+    padding: 10px;
 }
 
 .icons h2 {
@@ -131,11 +134,53 @@ h1 {
     height: 50vH;
     margin: 0 auto;
     gap: 46px;
+    flex-wrap: wrap;
+}
+
+.boxes figure {
+    padding: 0px;
+    margin: 0px;
+    color: #7A7F89;
+    font-size: 18px;
+    flex: 1;
 }
 
 .box {
-    width: 150px;
+    max-width: 150px;
     height: 150px;
     border: 4px solid #3882f6; 
     border-radius: 12px;
+    margin-bottom: 10px;
+    
+}
+
+/* Quote Section */
+.quote {
+    background-color: var(--secondary);
+} 
+
+.quote-container {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    height: 60vH;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+blockquote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0;
+}
+
+p.quote-by-thor {
+    margin-left: auto;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0px;
 }
