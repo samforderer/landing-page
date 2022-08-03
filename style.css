@@ -1,0 +1,141 @@
+:root {
+    --secondary: #E5E7Eb;
+    --secondary-size: 18px;
+    --bg: #1F2937;
+    --header-logo: #F9FAF8;
+    --button-color: #3882f6;
+    --image-background: #6E747C;
+  }
+
+body {
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+/* FIRST SECTION INCLUDES NAV AND HERO SECTION */
+
+/* HEADER */
+
+.header-hero {
+    background-color: var(--bg);
+
+}
+
+header {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    height: 10vH;
+}
+
+.header-logo {
+    color: var(--header-logo);
+    font-weight: 900;
+    font-size: 24px;
+}
+
+nav {
+    flex: 0 1 400px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0px;
+}
+
+nav ul a {
+    color: var(--secondary);
+    text-decoration: none;
+}
+
+/* 
+END OF HEADER 
+==========================
+*/
+
+
+/* 
+HERO SECTION
+==========================
+*/
+
+.hero {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 60vH;
+    align-items: center;
+    gap: 36px;
+}
+
+h1 {
+    color: var(--header-logo);
+    font-size: 48px;
+    margin: 0px;
+    font-weight: 900;
+}
+
+.hero-left-side {
+    width: 50%;
+}
+
+.hero-left-side p {
+    color: var(--secondary);
+    font-size: var(--secondary-size);
+    margin: 0px;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+.hero-left-side button {
+    background-color: var(--button-color);
+    padding: 8px 30px;
+    color: var(--secondary);
+    font-size: 18px;
+    font-weight: 800;
+    border: none;
+    border-radius: 8px;
+}
+
+.hero-image {
+    background: var(--image-background);
+    flex: 1;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondary);
+}
+
+/* ICONS */
+
+.icons {
+    text-align:center;
+    padding-top: 50px;
+}
+
+.icons h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: var(--bg);
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    height: 50vH;
+    margin: 0 auto;
+    gap: 46px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882f6; 
+    border-radius: 12px;
+}
