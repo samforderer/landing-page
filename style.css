@@ -9,10 +9,9 @@
 
 body {
     margin: 0;
-}
-main {
     font-family: 'Roboto';
 }
+
 
 /* FIRST SECTION INCLUDES NAV AND HERO SECTION */
 
@@ -183,4 +182,60 @@ p.quote-by-thor {
     font-size: 24px;
     font-weight: bold;
     margin-top: 0px;
+}
+
+/*CTA Section Start */
+
+.CTA-Box {
+    background: var(--button-color);
+    max-width: 1000px;
+    margin: 50px auto;
+    border-radius: 15px;
+    color: #E5E7Eb;
+    padding: 25px 150px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+
+.text h3 {
+    font-size: 24px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.text p {
+    margin: 0;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: light;
+}
+
+.CTA-Box button {
+    background: none;
+    border: 3px solid #E5E7Eb;
+    color: #E5E7Eb;
+    padding: 5px 25px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.CTA-Box button:hover {
+    background-color: #E5E7Eb;
+    color:#3882f6;
+
+}
+
+footer {
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7Eb;
+    font-family: roboto;
 }
