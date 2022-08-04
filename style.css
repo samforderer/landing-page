@@ -18,7 +18,7 @@ body {
 /* HEADER */
 
 .header-hero {
-    background-color: var(--bg);
+    background-color: #1F2937;
     padding: 10px;
     box-sizing: border-box;
 }
@@ -93,15 +93,21 @@ h1 {
 }
 
 .hero-left-side button {
-    background-color: var(--button-color);
-    padding: 8px 30px;
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, blue  100%);
+    padding: 20px 40px;
     color: var(--secondary);
     font-size: 18px;
     font-weight: 800;
     border: none;
     border-radius: 8px;
+    background-size: 200% auto;
+    display:block;
+    transition: 0.2s;
 }
-
+.hero-left-side button:hover {
+    background-position: right center;
+    cursor: pointer;
+}
 .hero-image {
     background: var(--image-background);
     flex: 1;
